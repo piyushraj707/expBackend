@@ -27,7 +27,7 @@ mongoose
 	})
 
 app.get("/", (req, res) => {
-	res.send("<h1>Hello World. This is a backend server</h1>")
+	res.send("<h1>Hello World. This is an updated backend server</h1>")
 })
 
 app.listen(PORT, () => {
