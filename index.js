@@ -8,7 +8,7 @@ import {createServer} from 'http'
 
 const app = express();
 // app.use(cors({origin: "http://localhost:3000"})) //allow communication between frontend and backend
-app.use(cors({origin: "*"}));
+app.use(cors());
 
 //middleware for JSON
 app.use(express.json())
